@@ -24,3 +24,7 @@ dist-ssr
 *.sw?
 .env.secret
 dist.zip
+src/Flat_Office.psd
+tilesets/Anm_Exterior.psd
+tilesets/MOD_Exterior.psd
+src/Flat_Office.psd
