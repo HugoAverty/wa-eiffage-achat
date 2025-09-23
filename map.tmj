@@ -1578,7 +1578,7 @@
                         }],
                  "rotation":0,
                  "type":"variable",
-                 "visible":false,
+                 "visible":true,
                  "width":0,
                  "x":2262,
                  "y":539
@@ -1628,22 +1628,17 @@
                         {
                          "name":"autoClose",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"autoOpen",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"doorVariable",
                          "type":"string",
                          "value":"work1"
-                        }, 
-                        {
-                         "name":"tag",
-                         "type":"string",
-                         "value":"orga"
                         }, 
                         {
                          "name":"zone",
@@ -1665,22 +1660,17 @@
                         {
                          "name":"autoClose",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"autoOpen",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"doorVariable",
                          "type":"string",
                          "value":"work2"
-                        }, 
-                        {
-                         "name":"tag",
-                         "type":"string",
-                         "value":"orga"
                         }, 
                         {
                          "name":"zone",
@@ -1702,22 +1692,17 @@
                         {
                          "name":"autoClose",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"autoOpen",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"doorVariable",
                          "type":"string",
                          "value":"work3"
-                        }, 
-                        {
-                         "name":"tag",
-                         "type":"string",
-                         "value":"orga"
                         }, 
                         {
                          "name":"zone",
@@ -1739,22 +1724,17 @@
                         {
                          "name":"autoClose",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"autoOpen",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"doorVariable",
                          "type":"string",
                          "value":"work4"
-                        }, 
-                        {
-                         "name":"tag",
-                         "type":"string",
-                         "value":"orga"
                         }, 
                         {
                          "name":"zone",
@@ -1776,22 +1756,17 @@
                         {
                          "name":"autoClose",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"autoOpen",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"doorVariable",
                          "type":"string",
                          "value":"work5"
-                        }, 
-                        {
-                         "name":"tag",
-                         "type":"string",
-                         "value":"orga"
                         }, 
                         {
                          "name":"zone",
