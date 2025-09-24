@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Présentations (statique local)</title>
+  <style>
+    :root {
+      --bg: #0f1115; --text: #e8eef5; --muted: #a8b3c7;
+      --border: rgba(255,255,255,.08); --gap: 18px; --radius: 16px;
+    }
+    * { box-sizing: border-box; } html, body { height: 100%; }
+    body {
+      margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+      background: radial-gradient(1200px 800px at 20% 0%, #141824 0%, var(--bg) 50%) fixed;
+      color: var(--text);
+    }
+    .wrap { max-width: 1200px; margin: 0 auto; padding: 28px 18px 40px; }
+    header { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-bottom: 18px; }
+    h1 { margin: 0; font-size: clamp(20px, 4vw, 28px); letter-spacing: .2px; }
+    .hint { color: var(--muted); font-size: 14px; }
+
+    .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: var(--gap); }
+    .col { grid-column: span 12; }
+    @media (min-width: 720px) { .col { grid-column: span 6; } }
+    @media (min-width: 1080px) { .col { grid-column: span 4; } }
+
+    .card {
+      background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,0));
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 12px;
+      box-shadow: 0 10px 24px rgba(0,0,0,.35), inset 0 1px 0 rgba(255,255,255,.04);
+    }
+    .thumb {
+      width: 100%; aspect-ratio: 16/10; border-radius: 12px; overflow: hidden;
+      background: #0b0d12; border: 1px solid var(--border);
+      display: grid; place-items: center;
+    }
+    .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .title {
+      margin: 10px 6px 6px; font-weight: 600; font-size: 15px; color: #f2f6ff;
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 2.6em;
+    }
+    .actions { display: flex; gap: 8px; margin: 6px 6px 2px; flex-wrap: wrap; }
+    .btn {
+      appearance: none; border: 1px solid rgba(255,255,255,.12);
+      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
+      color: var(--text); padding: 6px 10px; border-radius: 10px; text-decoration: none;
+      font-weight: 600; box-shadow: 0 6px 14px rgba(0,0,0,.25); font-size: 13px;
+    }
+    .btn:hover { border-color: rgba(90,169,255,.45); }
+    .open { border-color: rgba(90,169,255,.35); }
+    footer { margin-top: 22px; color: var(--muted); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Présentations (statique local)</h1>
+      <span class="hint">Titres et miniatures sont intégrés en dur, sans appels réseau.</span>
+    </header>
+
+    <div class="grid">
+      
+      <div class="col">
+        <div class="card">
+          <div class="thumb">
+            <img src="thumbs/presentation_01.jpg" alt="Miniature – Présentation 1" loading="lazy" decoding="async" />
+          </div>
+          <div class="title">Présentation 1</div>
+          <div class="actions">
+            <a class="btn open" href="#" target="_blank" rel="noopener">Ouvrir</a>
+            <a class="btn" href="#" target="_blank" rel="noopener">Aperçu</a>
+            <a class="btn" href="#" target="_blank" rel="noopener">Télécharger</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="thumb">
+            <img src="thumbs/presentation_02.jpg" alt="Miniature – Présentation 2" loading="lazy" decoding="async" />
+          </div>
+          <div class="title">Présentation 2</div>
+          <div class="actions">
+            <a class="btn open" href="#" target="_blank" rel="noopener">Ouvrir</a>
+            <a class="btn" href="#" target="_blank" rel="noopener">Aperçu</a>
+            <a class="btn" href="#" target="_blank" rel="noopener">Télécharger</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="thumb">
+            <img src="thumbs/presentation_03.jpg" alt="Miniature – Présentation 3" loading="lazy" decoding="async" />
+          </div>
+          <div class="title">Présentation 3</div>
+          <div class="actions">
+            <a class="btn open" href="#" target="_blank" rel="noopener">Ouvrir</a>
+            <a class="btn" href="#" target="_blank" rel="noopener">Aperçu</a>
+            <a class="btn" href="#" target="_blank" rel="noopener">Télécharger</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="thumb">
+            <img src="thumbs/presentation_04.jpg" alt="Miniature – Présentation 4" loading="lazy" decoding="async" />
+          </div>
+          <div class="title">Présentation 4</div>
+          <div class="actions">
+            <a class="btn open" href="#" target="_blank" rel="noopener">Ouvrir</a>
+            <a class="btn" href="#" target="_blank" rel="noopener">Aperçu</a>
+            <a class="btn" href="#" target="_blank" rel="noopener">Télécharger</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="thumb">
+            <img src="thumbs/presentation_05.jpg" alt="Miniature – Présentation 5" loading="lazy" decoding="async" />
+          </div>
+          <div class="title">Présentation 5</div>
+          <div class="actions">
+            <a class="btn open" href="#" target="_blank" rel="noopener">Ouvrir</a>
+            <a class="btn" href="#" target="_blank" rel="noopener">Aperçu</a>
+            <a class="btn" href="#" target="_blank" rel="noopener">Télécharger</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="thumb">
+            <img src="thumbs/presentation_06.jpg" alt="Miniature – Présentation 6" loading="lazy" decoding="async" />
+          </div>
+          <div class="title">Présentation 6</div>
+          <div class="actions">
+            <a class="btn open" href="#" target="_blank" rel="noopener">Ouvrir</a>
+            <a class="btn" href="#" target="_blank" rel="noopener">Aperçu</a>
+            <a class="btn" href="#" target="_blank" rel="noopener">Télécharger</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="thumb">
+            <img src="thumbs/presentation_07.jpg" alt="Miniature – Présentation 7" loading="lazy" decoding="async" />
+          </div>
+          <div class="title">Présentation 7</div>
+          <div class="actions">
+            <a class="btn open" href="#" target="_blank" rel="noopener">Ouvrir</a>
+            <a class="btn" href="#" target="_blank" rel="noopener">Aperçu</a>
+            <a class="btn" href="#" target="_blank" rel="noopener">Télécharger</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="thumb">
+            <img src="thumbs/presentation_08.jpg" alt="Miniature – Présentation 8" loading="lazy" decoding="async" />
+          </div>
+          <div class="title">Présentation 8</div>
+          <div class="actions">
+            <a class="btn open" href="#" target="_blank" rel="noopener">Ouvrir</a>
+            <a class="btn" href="#" target="_blank" rel="noopener">Aperçu</a>
+            <a class="btn" href="#" target="_blank" rel="noopener">Télécharger</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      Miniatures locales en <code>./thumbs</code>.
+    </footer>
+  </div>
+</body>
+</html>
