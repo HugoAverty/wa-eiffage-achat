@@ -12,6 +12,9 @@ WA.onInit().then(() => {
     const userTag = WA.player.tags;
 
     // If user is admin, name it with a dark blue border
+    if(userTag.includes("admin")) {
+        WA.room.hideLayer("collisionsSpeakerAccess");
+    }
     if(userTag.includes("srm")) {
         WA.player.setOutlineColor(255, 216, 0);
     }
