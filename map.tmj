@@ -972,7 +972,7 @@
                         {
                          "name":"tag",
                          "type":"string",
-                         "value":"expert"
+                         "value":"admin"
                         }],
                  "rotation":0,
                  "type":"variable",
@@ -1015,7 +1015,7 @@
                         {
                          "name":"tag",
                          "type":"string",
-                         "value":"expert"
+                         "value":"admin"
                         }],
                  "rotation":0,
                  "type":"variable",
@@ -1058,7 +1058,7 @@
                         {
                          "name":"tag",
                          "type":"string",
-                         "value":"expert"
+                         "value":"admin"
                         }],
                  "rotation":0,
                  "type":"variable",
@@ -1101,7 +1101,7 @@
                         {
                          "name":"tag",
                          "type":"string",
-                         "value":"expert"
+                         "value":"admin"
                         }],
                  "rotation":0,
                  "type":"variable",
@@ -1144,7 +1144,7 @@
                         {
                          "name":"tag",
                          "type":"string",
-                         "value":"expert"
+                         "value":"admin"
                         }],
                  "rotation":0,
                  "type":"variable",
@@ -1213,7 +1213,7 @@
                         {
                          "name":"tag",
                          "type":"string",
-                         "value":"expert"
+                         "value":"admin"
                         }, 
                         {
                          "name":"zone",
@@ -1250,7 +1250,7 @@
                         {
                          "name":"tag",
                          "type":"string",
-                         "value":"expert"
+                         "value":"admin"
                         }, 
                         {
                          "name":"zone",
@@ -1287,7 +1287,7 @@
                         {
                          "name":"tag",
                          "type":"string",
-                         "value":"expert"
+                         "value":"admin"
                         }, 
                         {
                          "name":"zone",
@@ -1324,7 +1324,7 @@
                         {
                          "name":"tag",
                          "type":"string",
-                         "value":"expert"
+                         "value":"admin"
                         }, 
                         {
                          "name":"zone",
@@ -1361,7 +1361,7 @@
                         {
                          "name":"tag",
                          "type":"string",
-                         "value":"expert"
+                         "value":"admin"
                         }, 
                         {
                          "name":"zone",
